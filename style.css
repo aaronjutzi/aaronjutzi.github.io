@@ -1,0 +1,79 @@
+body {
+	background-color: teal;
+}
+
+h1 {
+	padding-left: 2px;
+	margin-top: 10px;
+	margin-bottom: 12px;
+}
+
+h2 {
+	text-decoration: underline;
+	margin-top: 4px;
+}
+
+h3 {
+	border: 2px solid #F8F8FF;
+	padding-left: 2px;
+	margin: 5px;
+	color: BurlyWood;
+	/* text-shadow effect for black outline around text: https://stackoverflow.com/questions/4772906/css-is-it-possible-to-add-a-black-outline-around-each-character-in-text */ 
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+h4 {
+	margin: 1px;
+}
+
+p {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+/* Inspiration for ul, li, li a:hover and li a tags: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+/* My navbar colour is the same as the one I referenced from w3schools, but I decided to keep it that way because I liked how it looked on my site */
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.nav {
+  float: left;
+}
+
+/* Navbar text */
+li a {  
+  display: block;
+  color: White;
+  padding: 10px;
+  text-decoration: none;
+  font-family: "Arial", sans-serif;
+  background-color: #333;
+}
+
+/* individual Navbar icon colours when mouse hovers over */
+li a:hover {
+	background-color: #723;
+}
+
+
+/* inspration for img css styling: https://www.w3schools.com/css/css3_images.asp and https://www.w3schools.com/css/css_selectors.asp */
+img.linkedin {
+	border: 1px solid #2f2f2f;
+	border-radius: 10px;
+	border-width:5px;
+	margin-top:10px;
+	width:50px;
+}
+
+img.github {
+	border: 1px solid #2f2f2f;
+	border-radius: 29px;
+	border-width:5px;
+	margin-top:10px;
+	width:50px;
+}
