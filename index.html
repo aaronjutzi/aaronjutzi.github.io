@@ -1,30 +1,36 @@
 <!DOCTYPE html>
-<html>
-<head>
-<style> 
-div {
-  width: 100px;
-  height: 100px;
-  background: blue;
-  transition: width 1s, height 4s, transform 2s;
-  transition-timing-function;
-}
 
-div:hover {
-  height:700px;
-  width: 700px;
-  transform: rotate(1080deg);
-}
-</style>
+<head>
+<title> Aaron's Webpage </title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>The transition Property</h1>
+<h1>Aaron Jutzi's Website</h1>
 
-<p>Hover over the div element below, to see the transition effect:</p>
-<div></div>
+<!-- Inspiration for html/css Navbar: https://www.w3schools.com/css/css_navbar.asp-->
+<ul class="nav">
+  <li class="nav"><a href="index.html">Home</a></li>
+  <li class="nav"><a href="aboutpage.html">About</a></li>
+</ul>
 
-<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+<img src="images/earth.webp" alt="earth photo wide" style="width:400px;height:200px" >
+
+<!-- Welcome message to anyone visiting my site-->
+<p>Welcome to my webpage! My name is Aaron Jutzi and this is my personal website.</P>
+<p>I am a Geographic Information Systems student at Fleming College. </p>
+
+<p>To learn more about me you can <a href="aboutpage.html">go to my about page</a> to see my resume.</p>
+
+
+<!-- Linkedin and Github links to my respective profiles-->
+<a href="https://www.linkedin.com/in/aaron-jutzi-82b23183/" target="_blank">
+<img class="linkedin" src="images/linkedinicon.svg.png" alt="linkedin logo">
+</a>
+
+<a href="https://github.com/aaronjutzi" target="_blank">
+<img class="github" src="images/githublogo.webp" alt="github logo">
+</a>
 
 </body>
-</html>
+
